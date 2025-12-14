@@ -1,0 +1,39 @@
+name: rest_api_demo
+description: "A new Flutter project."
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.9.2
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.8
+
+  # === Dependencies tambahan ===
+  http: ^1.1.0                    # HTTP requests
+  provider: ^6.0.5                # State management
+  shared_preferences: ^2.2.0      # Local storage (token, settings, dll)
+  intl: ^0.18.1                   # Date formatting
+  
+  # === Database Lokal ===
+  sqflite: ^2.3.0
+  path: ^1.8.3
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  integration_test:
+    sdk: flutter
+
+  flutter_lints: ^5.0.0
+  mockito: ^5.4.4
+  build_runner: ^2.4.8
+  sqflite_common_ffi: ^2.3.2
+
+flutter:
+  uses-material-design: true
